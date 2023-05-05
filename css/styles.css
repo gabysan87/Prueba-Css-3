@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(203, 218, 218);
+}
+
+.container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.images{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+    
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.caja-form{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color:white;
+    margin-left: 60%;
+}
+
+.formulario{
+    position: relative;
+    margin: 15px 10px 35px 5px;
+    height: 60%;
+}
+
+.formulario > input{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    width: 280px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    color: #333;  
+}
+
+label{
+    margin-left: 15px;
+    text-align: center;
+    color: #a9a4a4;
+}
+
+.terms{
+    width: 250px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+button{
+    position: absolute;
+    background-color: rgb(217, 31, 136);
+    width: 150px;
+    height: 32px;
+    font-size: 15px;
+    margin-left: 30px;
+    border: 2px;
+    border-radius: 20px;
+    color: white;
+}
+
+.link{
+    position: absolute;
+    text-decoration: none;
+    width: 80px;
+    bottom: 15px;
+    left: 220px;
+    color: rgb(57, 52, 52);
+
+}
+
+.linea{
+    border-bottom: 3px solid #f30875;
+}
